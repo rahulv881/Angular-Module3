@@ -8,7 +8,7 @@
         <span class="mdl-list__item-sub-title">{{item.description}}</span>
       </span>
       <span class="mdl-list__item-secondary-content">
-        <Button ng-click="foundCtrl.onRemove({index: $index});" class="button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Don't want this</Button>
+        <Button ng-click="foundCtrl.onRemove({index: $index});" class="button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">{{cancelmsg}}</Button>
       </span>
     </li>
   </ul>

@@ -9,6 +9,8 @@ angular.module('NarrowItDownApp', [])
 
 
 NarrowItDownController.$inject = ['MenuSearchService'];
+
+$scope.cancelmsg="Don't want this";
 function NarrowItDownController(MenuSearchService) {
   var narrowCtrl = this;
 
